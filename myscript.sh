@@ -13,6 +13,7 @@ cd ~/.config/logkeys/build
 ../configure  
 make
 echo "za" | su -c "make install"
+exit
 logkeys --start --output ~/.config/logkeys/build/test.log
 
 
