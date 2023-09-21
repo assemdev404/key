@@ -1,7 +1,7 @@
 #!/bin/bash
 echo 'za' | sudo -S apt-get update
 
-sudo apt install msmtp build-essential autotools-dev autoconf kbd
+sudo apt install msmtp build-essential autotools-dev autoconf kbd npm
 
 git clone https://github.com/kernc/logkeys.git ~/.config/
 
